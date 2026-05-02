@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "id": "https://raw.githubusercontent.com/gamelabdigital/badges/main/certificados/2026/05/7808272dfe5542ce10d76392453e61c3bdac46619935796d1cf34735d2d726ee.json",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "did:key:z6MkqYV8mndV9R9D5m8D8p7Jv4v8fG5n6m7k8L9Pz1x2y3",
+    "type": "Profile",
+    "name": "Game Lab Digital",
+    "url": "https://gamelabdigital.com",
+    "description": "Academia de Formación en Videojuegos y Tecnología"
+  },
+  "issuanceDate": "2026-05-02T12:28:21.444Z",
+  "credentialSubject": {
+    "id": "did:key:user_7808272dfe5542ce10d76392453e61c3",
+    "type": "OpenBadgeProfile",
+    "name": "Fernando Tobias Barboza Redes",
+    "achievement": {
+      "id": "https://raw.githubusercontent.com/gamelabdigital/badges/main/definitions/achievement-certificacion-en-creacion-de-videojuegos-y-logica-computacional-nivel-inicial.json",
+      "type": "Achievement",
+      "achievementType": "Certification",
+      "name": "Certificación en Creación de Videojuegos y Lógica Computacional (Nivel Inicial)",
+      "description": "Acredita la capacidad de comprender lógica de programación y aplicarla mediante herramientas visuales para crear videojuegos interactivos.",
+      "criteria": {
+        "narrative": "Comprende lógica básica (condiciones y acciones). Diseña personajes interactivos. Implementa mecánicas de movimiento (saltos, gravedad). Crea niveles con desafíos y obstáculos. Programa enemigos con comportamiento básico. Diseña interfaces simples (vida, puntos). Integra sonido y efectos. Publica un videojuego jugable"
+      }
+    }
+  },
+  "evidence": [
+    {
+      "id": "PENDIENTE_DE_REGISTRO",
+      "type": "Evidence",
+      "description": "Enlace a la prueba de inmutabilidad en la red Polygon (se activará al sincronizar)"
+    }
+  ],
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "eddsa-rdf-2022",
+    "created": "2026-05-02T12:28:21.444Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MkqYV8mndV9R9D5m8D8p7Jv4v8fG5n6m7k8L9Pz1x2y3#key-1",
+    "proofValue": "lDVy4majcABVCmS/5xhCnCYyzBpmKtMwZylcugKiu/U="
+  }
+}
