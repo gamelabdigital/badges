@@ -1,0 +1,13 @@
+{
+  "id": "https://gamelabdigital.com/achievements/d8c2c91d6ffcebfcf916be26bc46506c0e8c135a7eec86ed484c2611cfe79789",
+  "type": "Achievement",
+  "name": "Certificación en Creación de Videojuegos y Lógica Computacional (Nivel Inicial)",
+  "description": "Acredita la capacidad de comprender lógica de programación y aplicarla mediante herramientas visuales para crear videojuegos interactivos.",
+  "criteria": {
+    "narrative": "Comprende lógica básica (condiciones y acciones). Diseña personajes interactivos. Implementa mecánicas de movimiento (saltos, gravedad). Crea niveles con desafíos y obstáculos. Programa enemigos con comportamiento básico. Diseña interfaces simples (vida, puntos). Integra sonido y efectos. Publica un videojuego jugable"
+  },
+  "image": {
+    "id": "https://raw.githubusercontent.com/gamelabdigital/badges/main/certificados/2026/05/d8c2c91d6ffcebfcf916be26bc46506c0e8c135a7eec86ed484c2611cfe79789.png",
+    "type": "Image"
+  }
+}
