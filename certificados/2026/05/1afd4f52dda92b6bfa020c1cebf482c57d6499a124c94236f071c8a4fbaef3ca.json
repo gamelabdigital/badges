@@ -1,0 +1,59 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context.json"
+  ],
+  "id": "https://raw.githubusercontent.com/gamelabdigital/badges/main/certificados/2026/05/1afd4f52dda92b6bfa020c1cebf482c57d6499a124c94236f071c8a4fbaef3ca.json",
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "issuer": {
+    "id": "did:key:z6MkqYV8mndV9R9D5m8D8p7Jv4v8fG5n6m7k8L9Pz1x2y3",
+    "type": "Profile",
+    "name": "Game Lab Digital",
+    "description": "Formación Profesional en Desarrollo de Videojuegos y Arte Digital",
+    "url": "https://gamelabdigital.com",
+    "image": "https://gamelabdigital.com/logo.png"
+  },
+  "issuanceDate": "2026-05-03T12:52:35.044Z",
+  "credentialSubject": {
+    "type": "BadgeRecord",
+    "id": "https://gamelabdigital.com/students/liamservicio@gmail.com",
+    "claimant": {
+      "id": "mailto:liamservicio@gmail.com",
+      "type": "IdentityObject",
+      "identityHash": "1afd4f52dda92b6bfa020c1cebf482c57d6499a124c94236f071c8a4fbaef3ca"
+    },
+    "achievement": {
+      "id": "https://gamelabdigital.com/achievements/1afd4f52dda92b6bfa020c1cebf482c57d6499a124c94236f071c8a4fbaef3ca",
+      "type": "Achievement",
+      "name": "Certificación en Desarrollo de Videojuegos No-Code / Visual Scripting",
+      "description": "Acredita la capacidad de diseñar, desarrollar y publicar videojuegos completos utilizando herramientas de programación visual, incluyendo mecánicas avanzadas, sistemas multijugador, persistencia de datos y monetización.",
+      "criteria": {
+        "narrative": "Implementa lógica de eventos complejos usando estructuras condicionales y variables. Diseña sistemas de movimiento con físicas (gravedad, colisiones, animaciones). Construye niveles funcionales con progresión y obstáculos dinámicos. Programa IA básica y avanzada (persecución, ataque, daño). Implementa funcionalidades multijugador online. Integra sistemas de guardado y bases de datos. Diseña interfaces de usuario (HUD/UI) funcionales. Integra sonido y feedback interactivo. Implementa monetización mediante anuncios. Exporta y publica un videojuego funcional en múltiples plataformas"
+      },
+      "image": {
+        "id": "https://raw.githubusercontent.com/gamelabdigital/badges/main/certificados/2026/05/1afd4f52dda92b6bfa020c1cebf482c57d6499a124c94236f071c8a4fbaef3ca.png",
+        "type": "Image"
+      }
+    }
+  },
+  "evidence": [
+    {
+      "id": "PENDIENTE_DE_REGISTRO",
+      "type": [
+        "Evidence"
+      ],
+      "description": "Prueba de inmutabilidad en la red Polygon"
+    }
+  ],
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "eddsa-rdf-2022",
+    "created": "2026-05-03T12:52:35.044Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:key:z6MkqYV8mndV9R9D5m8D8p7Jv4v8fG5n6m7k8L9Pz1x2y3#key-1",
+    "proofValue": "HTei0/1ImvH4ZXlSabs29jMUqCkVFjdHIE4zTRGfWQU="
+  }
+}
